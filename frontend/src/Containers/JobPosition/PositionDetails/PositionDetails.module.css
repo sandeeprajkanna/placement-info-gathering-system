@@ -1,0 +1,52 @@
+.position {
+    margin: 10px;
+    /* background-color: rgb(192, 227, 231); */
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0 1px 2px #777;
+    padding: 20px 10px;
+    width: auto;
+}
+
+.header {
+    padding: 10px 2px;
+    font-size: 18px;
+}
+
+.position_title {
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.company_name {
+    font-size: 110%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.description {
+    font-size: 16px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.details {
+    font-size: 16px;
+    margin: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.details td,
+th,
+tr {
+    border: 1px solid black;
+}
+
+.details td {
+    padding: 5px;
+    padding-right: 40px;
+}
+
+.details td:nth-of-type(odd) {
+    font-weight: bold;
+}

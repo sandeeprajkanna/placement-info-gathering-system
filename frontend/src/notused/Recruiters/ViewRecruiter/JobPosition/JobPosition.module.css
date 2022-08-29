@@ -1,0 +1,48 @@
+.jobPosition {
+    margin: 10px;
+    /* background-color: rgb(192, 227, 231); */
+    background-color: rgb(204, 235, 238);
+    box-shadow: 0 1px 2px #777;
+    padding: 10px;
+    font-size: 90%;
+    width: auto;
+}
+
+.time {
+    white-space: nowrap;
+}
+
+.header {
+    display: flex;
+    align-items: stretch;
+}
+
+.name {
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    font-size: 130%;
+    padding: 5px 0;
+    font-weight: bold;
+    width: 100%;
+}
+
+.description {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    color: #777;
+    font-size: 110%;
+}
+
+.special {
+    background-color: rgb(123, 184, 105);
+}
+
+.unread {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    margin-right: 10px;
+    display: inline-block;
+}

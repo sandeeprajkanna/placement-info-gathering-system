@@ -1,0 +1,17 @@
+
+.createNotice {
+    display: inline-block;
+    color: unset;
+    text-decoration: none;
+    background-color: rgb(42, 63, 105);
+    border: 1px solid grey;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.blockLinks {
+    display: block;
+    color: unset;
+    text-decoration: none;
+}

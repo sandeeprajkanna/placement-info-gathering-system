@@ -1,0 +1,14 @@
+.ContentDiv {
+    background-color: rgb(235, 235, 235);
+    min-height: 200px;
+}
+
+.SideBarSubjects {
+   position: fixed;
+   top: 70px;
+   left: 5px;
+   width: 19%;
+   height: 100vh;
+   float: left;
+   padding: 5px;
+}

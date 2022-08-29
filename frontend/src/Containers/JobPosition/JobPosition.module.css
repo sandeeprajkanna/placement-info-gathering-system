@@ -1,0 +1,120 @@
+.File{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.features {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.options {
+    display: block;
+    margin: 10px 0;
+    background-color: rgb(60, 168, 78);
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.done{
+    background-color: rgb(60, 134, 168);
+}
+
+.notable{
+    background: rgb(216, 114, 55);
+}
+
+.application {
+    margin: 10px;
+    /* background-color: rgb(192, 227, 231); */
+    background-color: rgb(204, 235, 238);
+    border-radius: 10px;
+    box-shadow: 0 1px 2px #777;
+    padding: 10px;
+    font-size: 90%;
+    width: auto;
+}
+
+.pending {
+    background-color: rgb(167, 226, 231);
+}
+
+.rejected {
+    background-color: rgb(228, 154, 135);
+}
+
+.selected {
+    background-color: rgb(184, 233, 149);
+}
+
+.applicant {
+    overflow: hidden;
+    font-size: 110%;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.dept {
+    overflow: hidden;
+    font-style: italic;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    font-size: 100%;
+    font-weight: bold;
+    width: 100%;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #777;
+    font-size: 100%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.selected .status {
+    background-color: rgb(73, 199, 94);
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.rejected .status {
+    background-color: rgb(201, 96, 70);
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.pending .status {
+    background-color: rgb(63, 123, 201);
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.BlockLink{
+    color: inherit;
+    display: block;
+    text-decoration: none;
+}
+
+.subjectInput{
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 80%;
+    margin: 10px 0;
+}
+
+.contentInput{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 80%;
+    height: 120px;
+    display: block;
+}

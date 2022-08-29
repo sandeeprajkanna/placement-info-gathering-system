@@ -1,0 +1,25 @@
+.NotificationsBar{
+    /* padding: 10px 0; */
+    color: rgb(166, 219, 248);
+    border-right: 2px solid rgb(187, 187, 187);
+    background-color: rgb(233, 233, 233);
+}
+
+.header{
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(26, 91, 134);
+    color: rgb(226, 235, 240);
+}
+
+.list{
+    color: black;
+    padding: 0 0 20px 0;
+}
+
+.blockLink{
+    text-decoration: none;
+    color: inherit;
+}

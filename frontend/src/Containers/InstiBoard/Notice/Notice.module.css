@@ -1,0 +1,56 @@
+.noticeBox {
+    margin: 10px;
+    /* background-color: rgb(192, 227, 231); */
+    background-color: rgb(204, 235, 238);
+    border-radius: 10px;
+    box-shadow: 0 1px 2px #777;
+    padding: 10px;
+    font-size: 90%;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    align-items: stretch;
+}
+
+.title {
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    font-size: 110%;
+    font-weight: bold;
+    width: 100%;
+}
+
+.time {
+    white-space: nowrap;
+}
+
+.message {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    color: #777;
+    overflow: hidden;
+    text-align: justify;
+    height: 52px;
+    word-break: break-all;
+}
+
+.is_position {
+    background-color: rgb(250, 209, 173);
+}
+
+.unread {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+.is_position .unread {
+    background-color: rgb(182, 84, 39);
+}

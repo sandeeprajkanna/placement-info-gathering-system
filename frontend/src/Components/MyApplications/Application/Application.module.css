@@ -1,0 +1,90 @@
+.application {
+    margin: 10px;
+    /* background-color: rgb(192, 227, 231); */
+    background-color: rgb(204, 235, 238);
+    border-radius: 10px;
+    box-shadow: 0 1px 2px #777;
+    padding: 10px;
+    font-size: 90%;
+    width: auto;
+}
+
+.pending {
+    background-color: rgb(167, 226, 231);
+}
+
+.rejected {
+    background-color: rgb(228, 154, 135);
+}
+
+.selected {
+    background-color: rgb(184, 233, 149);
+}
+
+.position {
+    overflow: hidden;
+    font-size: 130%;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.company {
+    overflow: hidden;
+    font-style: italic;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    font-size: 110%;
+    font-weight: bold;
+    width: 100%;
+}
+
+.time {
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #777;
+    font-size: 100%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.selected .status {
+    background-color: rgb(73, 199, 94);
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.rejected .status {
+    background-color: rgb(201, 96, 70);
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.pending .status {
+    background-color: rgb(63, 123, 201);
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.unread {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+.rejected .unread {
+    background-color: rgb(182, 84, 39);
+}
+
+.accepted .unread {
+    background-color: rgb(182, 84, 39);
+}

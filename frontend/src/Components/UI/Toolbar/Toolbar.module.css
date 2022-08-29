@@ -1,0 +1,43 @@
+.toolbar{
+    background-color: rgb(40, 89, 129);
+    height: 72px;
+    border-bottom: 2px solid rgb(182, 182, 182);
+    display: flex;
+    align-items: stretch;
+}
+
+.logo{
+    font-size: 32px;
+    float: left;
+    height: 48px;
+    margin: 12px;
+    margin-left: 50px;
+    color: whitesmoke;
+    font-style: italic;
+    letter-spacing: 3px;
+    padding: 0;
+}
+
+.userBlock{
+    /* float: right; */
+    margin: 2px;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.authBlock{
+    /* float: right; */
+    margin: 2px;
+    padding: 0;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+
+.searchBar{
+    /* display: inline-block; */
+    /* float: right; */
+    flex-grow: 1;
+    height: 58px;
+    margin: 7px;
+    text-align: center;
+}

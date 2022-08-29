@@ -1,0 +1,9 @@
+.blockLinks{
+    display: block;
+    color: unset;
+    text-decoration: none;
+}
+
+.blockLinks:link, .blockLinks:hover, .blockLinks:visited, .blockLinks:active{
+    color: black;
+}

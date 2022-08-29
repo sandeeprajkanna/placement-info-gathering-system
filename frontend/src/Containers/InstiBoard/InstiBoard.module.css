@@ -1,0 +1,23 @@
+.blockLinks {
+    display: block;
+    color: unset;
+    text-decoration: none;
+}
+
+.blockLinks:link,
+.blockLinks:hover,
+.blockLinks:visited,
+.blockLinks:active {
+    color: black;
+}
+
+.createNotice {
+    display: inline-block;
+    color: unset;
+    text-decoration: none;
+    background-color: rgb(42, 63, 105);
+    border: 1px solid grey;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+}

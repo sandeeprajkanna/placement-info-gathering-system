@@ -1,0 +1,32 @@
+.loginBlock {
+    display: block;
+    float: right;
+    height: 64px;
+    margin-right: 0px;
+    /* padding: 1px; */
+    padding: 1px;
+}
+
+.loginBlock a {
+    display: inline-block;
+    height: 20px;
+    padding: 6px 20px;
+    text-decoration: none;
+    margin: 16px 0px;
+    margin-right: 20px;
+    background-color: rgb(139, 163, 185);
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.loginBlock .activeLink {
+    background-color: rgb(179, 189, 199);
+    color: rgb(32, 73, 112);
+}
+
+.loginBlock a:hover {
+    background-color: rgb(179, 189, 199);
+    color: rgb(32, 73, 112);
+}

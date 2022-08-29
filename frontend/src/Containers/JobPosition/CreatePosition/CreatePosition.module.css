@@ -1,0 +1,17 @@
+.subjectInput{
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 80%;
+    margin: 10px 0;
+}
+
+.contentInput{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 80%;
+    height: 200px;
+    display: block;
+}
+

@@ -1,0 +1,35 @@
+.userProfile{
+    text-align: center;
+}
+
+.pic{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(177, 177, 177);
+    border-radius: 400px;
+    margin: 20px auto;
+}
+
+.username{
+    font-weight: bold;
+    font-size: 140%;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.content_container{
+    width: 620px;
+    margin: 0 auto;
+}
+.head{
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+}
+
+.content{
+    width: 400px;
+    display: inline-block;
+    text-align: left;
+}

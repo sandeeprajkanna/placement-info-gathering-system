@@ -1,0 +1,21 @@
+.navBar{
+    background-color: rgb(18, 66, 99);
+}
+
+.navigationLink{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: rgb(231, 231, 231);
+}
+
+.activeLink{
+    background-color: rgb(231, 231, 231);
+    color: rgb(18, 66, 99);
+}
+
+.profileLink{
+    float: right;
+}

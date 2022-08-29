@@ -1,0 +1,11 @@
+.searchedName {
+    display: block;
+}
+.searchedNameLink {
+    background-color: rgb(127, 187, 255);
+    padding: 10px;
+    display: block;
+    margin: 10px ;
+    color: unset;
+    border-radius: 10px;
+}

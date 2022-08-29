@@ -1,0 +1,21 @@
+.options {
+    display: block;
+    margin: 10px 10px;
+    background-color: rgb(60, 168, 78);
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.done{
+    background-color: rgb(60, 134, 168);
+}
+
+.notable{
+    background: rgb(216, 114, 55);
+}
+
+.BlockLink{
+    display: block;
+    text-decoration: none;
+}
